@@ -1,0 +1,200 @@
+:pdf-theme: {docdir}/theme.yml
+:imagesdir: images
+:doctype: book
+:sectnums:
+:sectnumlevels: 1
+:chapter-signifier:
+
+:page-background-image-recto: image:recto.png[]
+:page-background-image-verso: image:verso.png[]
+:title-page-background-image: image:title.png[]
+
+= Innocent Tour: Manual
+
+== General info
+
+image::scr-move.png[]
+
+The goal of the game is be the first to reach the flag at the end of each stage. You can save your game in between stages.
+
+image::scr-scenario.png[]
+
+The game is split into three distinct scenarios, each with its own story and characters (albeit with some overlap). The suggested playing order (both in terms of difficulty and story progression) is:
+
+[.text-center]
+[.big]
+**Elf's Dream -> Asgardian Wars -> The Quest**
+
+== Main characters
+
+[cols=".^145,.^100,.^145",frame=none,grid=none]
+|===
+|||
+|||
+2+|**Folly (Elf)** +
+She has broken an ancient elven law, having fallen in love with a human. Sentenced to three days in prison, she makes a promise to her beloved that they will reunite and leave the forest together. a|image::elf-foliage.png[]
+
+a|image::valky.png[] 2+|**Nina (Valkyrie)** +
+One of the valkyries from the godly realm of Asgard. Her sister Tinel cast her into the earthly realm, sensing danger in Asgard. A vicious, selfish, spiteful, fearsome goddess in a child's body. +
+{nbsp} +
+**Richelle (Pegasus)** +
+Nina's celestial maiden and her favourite horse. A noble and beautiful woman, who nevertheless has to endure her master's endless whims and insults.
+
+2+|**Agnes (Black Knight)** +
+A kind-hearted village girl who has found herself in quite a predicament. One day, she went to the forest to meet her animal friends and encountered a demon who fused her with living demonic armour. Thus turning into the Black Knight, tasked with destroying the Holy Grail, the hope of mankind. a|image::agnes.png[]
+|===
+
+== Secondary characters
+
+**Michelle (Vampire Hunter)**
+
+An admirer of the famour professor van Helsing, she has set out to vanquish all the science-defying monsters of the world. Vampires, werevolves... she has seen and killed them all, but she still isn't satisfied. Upon seeing Folly the elf, Michelle thinks her a monster and starts hunting her.
+
+**Otis (Demoness)**
+
+A fallen angel who plots to destroy the Holy Grail, the hope of mankind. Being unable to touch the Holy Grail herself, she turns an innocent girl into a powerful demonic warrior known as the Black Knight and makes her do her bidding.
+
+**Piaget (Angel)**
+
+An angel who loves dark things and dark looks, sporting tattoos and heavy metal fashion away from God's all-seeing eyes. Her mission is to stop the Demoness from destroying the Holy Grail.
+
+**Cheryl (Paladin)**
+
+An adept swordswoman searching for the Holy Grail. She wears silver armour and will cut through any evil, no matter how big or small, all in the name of God.
+
+**Yoji (Air King)**
+
+His Majesty has a flying castle, a rather unfortunate malady, and a bit of a backstory with one of the main characters.
+
+**Atsuki (Monk)**
+
+A fighter monk from the East, she has set out to prove herself a disciple worthy of her Master.
+
+== Taking your turn
+
+image::take-turn.png[]
+
+A turn consists in either using an item or drawing a card. Not both.
+
+Drawn cards have a value (from 1 to 8) and a suit: Salamander (Fire), Nymph (Water), Sylphide (Air), or Gnome (Earth).
+
+Drawing e.g. a 8 of Nymph allows you to:
+
+* *Move* on the map by up to 8 cells. Moving by 5 cells or fewer will not store any unused Nymph mana.
+* *Skip* your turn, adding 8 mana to your Nymph mana pool.
+* *Use magic*, storing any unused Nymph mana.
+
+The only other card that can be drawn is a Joker. Drawing a Joker will not give you any mana, but you can still cast magic if you have enough mana in store.
+
+To open a chest, you must stop on the respective grid cell.
+
+Encountering a monster will end your movement and force you into combat.
+
+Sometimes you may step on an invisible trigger as you go. Most of the time, this will simply play a cutscene, after which your character will resume moving and eventually reach the cell you clicked on.
+
+== Battle
+
+image::scr-battle.png[]
+
+Battles are turn-based, but your characters fight automatically based on the chosen strategy.
+
+Right-clicking at any point during the battle allows you to pause the fight and choose a different strategy.
+
+Choosing *Escape* as your strategy will force your character to run for the nearest edge of the battle map and try to escape from the battle. Alternating this strategy with other strategies can also be used to reposition yourself in order to get the first hit on the closest enemy. If your SPD is high enough, you can even get a hit in and fall back before the enemy gets the chance to retaliate.
+
+If your escape attempt is successful, you'll return to the cell you were standing on at the start of the round.
+
+During battles, characters can also choose to heal themselves up, and this doesn't use any mana or other resources, but they only tend to heal up when they're critically low on HP. Note that enemies will also try to heal themselves up when they're low on HP, and they will also try to escape when they feel they're outpowered (likely making you miss out on any gold you'd get by defeating them).
+
+== Character stats
+
+image::scr-stats1.png[scale=75%]
+
+*HP* -- Your health points. If your HP reaches 0, you are sent back to the starting position or your latest rest point, fully healing up in the process. If you get sent back to the same spot three times, it's game over.
+
+HP can be restored using healing items, healing magic, and resting. Magic cards that fully restore your HP will also automatically heal you up if your HP reaches 0, preventing you from being sent back to the last checkpoint.
+
+*ATK* -- Your physical attack power. Affects your damage during battles.
+
+*DEF* -- Your physical defence power. Lowers the damage you take during battles.
+
+*SPD* -- Your battle speed. Affects how often your character can act during battles.
+
+*MAG* -- Your character's magic attack power during battles.
+
+*AMG* -- Your character's magic defence during battles.
+
+*~G* -- The amount of gold in your possession.
+
+image::scr-stats2.png[scale=75%]
+
+*MAGIC* -- Your current mana for each element. The gems on the right show the number of casts of the respective magic you can afford.
+
+== Magic
+
+image::counter.png[]
+
+When an opponent targets you with element magic on the adventure map, you can use the same magic to counter the spell. The chance of countering enemy magic successfully depends on your own magic power stat for that specific element and your resistance stat.
+
+Magic cards also pertain to one of the elements: *Fire* for direct damage spells, *Water* for knockback spells, and *Earth* for slowing spells. However, they can only be countered by *Ashtree*, *Holly*, and *Hazel* cards respectively. These three cards counter any magic of a specific element and never fail, but are used up in the process.
+
+Offensive cards obtained by defeating monsters on the adventure map have a certain motif to them, and using your character's preferred motif increases the card's success rate and effectiveness. The preferred motifs are:
+
+[cols="^1s,^1s,^1s",frame=none,grid=none]
+|===
+|image:morgan.png[] |image:tyr.png[] |image:azrael.png[]
+| Elf -- Celtic | Valkyrie -- Norse | Black Knight -- Christian
+|===
+
+== Affinity
+
+image::affinity.png[]
+
+The frequency with which you are targeted by enemy magic depends on how far ahead you are compared to the opponent's position and your affinity with that character. Your current affinity with a character can be roughly guessed by visiting that character's Status screen and clicking on their portrait. If their response is friendly, your affinity is high.
+
+image::clover.png[float="right"]
+
+Affinity with a character is decreased when you fight them or target them with offensive spells. Affinity can be increased by using the *Clover* magic card, sending fan letters, and successfully exchanging cards in between rounds. However, even having maximum affinity does not preclude characters from targeting you with spells if you're too far ahead. 
+
+Opponents other than Valkyrie, Elf, and Black Knight are always hostile to the player, and their affinity cannot be changed.
+
+== Jewel cards
+
+[.text-center]
+image:ruby.png[] image:sapphire.png[] image:garnet.png[]
+
+These can only be obtained by opening chests on the adventure map. The jewel cards permanently increase one of your stats, including several hidden ones:
+
+[cols=".^2s,.^8",grid="rows",frame="none"]
+|===
+|Pearl |Increases your attack power during battles.
+|Lapis lazuli |Increases your defence during battles.
+|Topaz |Increases your battle magic power.
+|Peridot |Improves your battle magic resistance.
+|Garnet |Increases your battle speed.
+|Ruby |Improves Fire magic (increases damage dealt).
+|Aquamarine |Improves Water magic (increases the number of turns the opponent is sent back by).
+|Sapphire |Improves Air magic (increases the number of bonus move points).
+|Amethyst |Improves Earth magic (increases the number of turns the opponent has to sit out).
+|Opal |Improves the success rate of your magic cards.
+|Emerald |Decreases the success rate of magic cards used against you.
+|Diamond |Increases your max HP.
+|===
+
+== Misc info
+
+image::weirdies.png[]
+
+Silencing magic (e.g. Morgan Le Fay) not only precludes the target from using magic, but also gives them immunity to earth magic for some reason.
+
+image::weirdies2.png[]
+
+You can only trigger one cutscene per turn. So moving over 2 dialogue triggers will only activate the 1st one, unless you stop on the 2nd one. This allows you e.g. to skip a pretty egregious cutscene in one of the scenarios at the end of act 1, where you otherwise would get sent quite a bit back.
+
+image::weirdies3.png[]
+
+There are a couple of points where one of the characters is seemingly forced to lose against another. Modifying the character stats in the game's memory to change the outcome doesn't affect anything. The game still goes on as if everything worked out as the devs intended.
+
+image::weirdies4.png[]
+
+Translation credits: Svipur, Michael P. Additional art by Hyssenfur.
