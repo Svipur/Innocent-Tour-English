@@ -80,7 +80,7 @@ Drawn cards have a value (from 1 to 8) and a suit: Salamander (Fire), Nymph (Wat
 
 Drawing e.g. a 8 of Nymph allows you to:
 
-* *Move* on the map by up to 8 cells. Moving by 5 cells or fewer will not store any unused Nymph mana.
+* *Move* on the map by up to 8 cells. Moving by 7 cells or fewer will not store any unused Nymph mana.
 * *Skip* your turn, adding 8 mana to your Nymph mana pool.
 * *Use magic*, storing any unused Nymph mana.
 
